@@ -1,0 +1,21 @@
+{
+  "name": "lr2",
+  "version": "0.0.2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": {
+    "lr2": "./index.js"
+  },
+  "keywords": [],
+  "author": "Aritra Hazra",
+  "license": "ISC",
+  "description": "Live reload server for frontend development",
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "mime-types": "^3.0.1",
+    "read-package-up": "^11.0.0"
+  }
+}
