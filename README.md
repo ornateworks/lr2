@@ -7,7 +7,7 @@
 
     ```json
     {
-        "devServer": {
+        "lr2": {
             "root": "./docs",
             "watch": ["docs/"]
         }
@@ -35,7 +35,7 @@ An array of regular expression patterns to exclude from watching. For example, t
 
 ```json
 {
-    "devServer": {
+    "lr2": {
         "watch": ["www/", "src/"],
         "ignored": ["\\.html?$"]
     }

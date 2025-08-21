@@ -8,7 +8,7 @@ import path from 'node:path'
 import { readPackageUp } from 'read-package-up'
 
 const { packageJson, path: packageJsonPath } = await readPackageUp()
-const options = packageJson.devServer
+const options = packageJson.devServer || packageJson.lr2
 const projectRoot = path.dirname(packageJsonPath)
 
 if (!options)
